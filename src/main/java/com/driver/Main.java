@@ -7,7 +7,7 @@ public class Main {
         //System.out.println(obj.name);
         //java: name has private access in com.driver.RWOnly
 
-        obj.setter(1);
-        System.out.println(obj.getter());
+        obj.setName(1);
+        System.out.println(obj.getName());
     }
 }
